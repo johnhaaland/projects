@@ -12,19 +12,20 @@
     <img src="http://127.0.0.1:5501/menu.jpg" class="menu-logo">
 
     <div id="menu" class="dropdown-menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Tech Stacks</a>
-        <a href="#">Projects</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#techstacks">Tech Stacks</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
         </div>
         </div>
     </header>
 </head>
 <body>
     <!--Profile Picture-->
-    <section class="Profile-Page">
+    <section id="home" class="home">
+    <div class="Profile-Page">
     <div class="profile-Picture">
     <img src="http://127.0.0.1:5501/profile.jpg" alt="my-profile-picture" class="picture">
     </div>
@@ -38,10 +39,12 @@
     <button class="Hire-me">Get in touch</button>
 </span>
 </div>
+    </div>
 </section>
    
     <!--About Container-->
     <section class="about">
+    <section id="about" class="about">
     <h2 class="about-heading">About 
     <span class="me">Me</b></span></h2>
 
@@ -64,9 +67,11 @@
     and hands-on projects.</p>
     </div>
     </div>
+</div>
 </section>
 
-    <section class="skills">
+    <section id="techstacks" class="techstackse">
+    <div class="skills">
     <h3>Tech <span class="stacks-heading">stacks</span></h3>
 
     <div class="skills-container">
@@ -105,6 +110,7 @@
     </section>
 
     <!--Projects Section-->
+    <section id="projects" class="projects">
     <div class="project">
     <h4>My <span class="project-heading">Projects</span></h4>
     </div>
@@ -146,9 +152,10 @@
     <a href="">Source</a>
     </div>
     </div>
-    </div>
+    </section>
 
     <!--Services Section-->
+    <section id="services" class="services">
     <div class="services-container">
     <h5><span class="our-services-heading">Our </span>Services</h5>
     <p class="services-paragraph"><span class="services-heading">
@@ -192,9 +199,10 @@
     </div>
     </div>
     </div>
-    </div>
+    </services>
 
     <!--Contact Section-->
+    <section id="contact" class="contact">
     <div class="contact-container">
     <h6><span class="contact-heading">Contact </span>Us</h6>
     <form class="contact-validation"><br><br>
@@ -213,5 +221,6 @@
     <br><br>
     <span class="contact-paragraph">Let's Connect and Talk</span>
     </div>
+    </section>
 </body>
 </html>
